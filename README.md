@@ -1,20 +1,20 @@
-# API de Clima e Tempo
+# Projeto com API de Clima e Tempo
 
 ## Descrição:
 
-Este projeto é uma API de clima e tempo que fornece informações atualizadas sobre condições meteorológicas em tempo real. A API oferece funcionalidades para consultar dados como temperatura, umidade, velocidade do vento, previsões futuras e muito mais para uma variedade de localizações globais.
+Projeto que nos passa informações em tempo real sobre o clima das cidades do mundo. Com a API utilizada podemos verificar condições como a temperatura, velocidade do vento, previsões futuras, umidade, para uma variedade de localizações globais.
 
-## Recursos Principais:
+## Funções Principais:
 
-- Fornecimento de informações precisas e atualizadas sobre condições climáticas em tempo real.
-- Previsões meteorológicas confiáveis para os próximos dias.
-- Suporte para múltiplas localizações globais.
-- Integração facilitada com outras aplicações e serviços.
+• Informações atualizadas em tempo real sobre condições climáticas.
+• Localizações globais.
+• Integração facilitada com outras aplicações e serviços.
+• Visualização da bandeira do país da cidade escolhida.
 
-## Tecnologias Utilizadas:
 
-### Lista de tecnologias utilizadas:
+## Tecnologias:
 
-- Node.js
-- Express
-- OpenWheater API
+• Node.js
+• Express
+• OpenWheater API
+• TimeZone API
