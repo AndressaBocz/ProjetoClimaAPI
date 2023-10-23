@@ -1,0 +1,30 @@
+<%- include('includes/head') %>
+  <body>
+    <div class="box-tempo">
+      <form action="/enviaCidade" method="POST" id="cityForm">
+        <div class="submit-city"><input type="text" placeholder="Buscar cidade" id="buscar-cidade" /> <button type="submit" class="submit"><i class="fa-solid fa-magnifying-glass-location fa-2xl"></i></button></div>
+      </form>
+
+      <div class="dadosCidade">
+        <i class="fa-solid fa-map-pin fa-2xl" style="color: rgb(241, 88, 88);"></i>
+        <h3><span id="cidade"></span></h3>
+        <span id="flag"><img class="flagImg" src=""></span>
+      </div>
+      
+
+      <div class="data-hora">
+        <p id="dia"></p>
+        <p id="hora"></p>
+      </div>
+
+      <h4><i class="fa-solid fa-temperature-high fa-2xl" style="color: rgb(255, 141, 141);"></i><span id="temperatura"></span></h4>
+      
+      <p><i class="fa-solid fa-cloud-showers-heavy fa-2xl" style="color: rgb(114, 114, 114);"></i><span class="info-clima">Chuva: </span><span id="chuva" class="dado"></span></p>
+
+      <p><i class="fa-solid fa-droplet fa-xl" style="color: rgb(114, 174, 241);"></i><span class="info-clima">Umidade: </span><span id="umidade" class="dado"></span></p>
+
+      <p><i class="fa-solid fa-wind fa-2xl" style="color: rgb(180, 209, 241);"></i><span class="info-clima">Vento: </span><span id="vento" class="dado"></span></p>
+
+    </div>
+  </body>
+</html>
